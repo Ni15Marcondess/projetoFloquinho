@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Dancing+Script:wght@400..700&family=Griffy&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+  background-color: #0d1117;
+  color: #38a92d;
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+#terminal{
+  width: 100%;
+  max-width: 900px;
+  height: 90vh;
+  overflow-y: auto;
+  padding: 20px;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.1);
+}
+
+#output p {
+    margin: 5px 0;
+}
+
+.input-line {
+    display: flex;
+    margin-top: 10px;
+}
+
+.prompt {
+    margin-right: 10px;
+    color: #58a6ff;
+}
+
+#command-input {
+    background: transparent;
+    border: none;
+    color: #00ff00;
+    font-family: inherit;
+    font-size: inherit;
+    width: 100%;
+    outline: none;
+}
+
+/* --- NOVAS CORES --- */
+.user {
+    color: #ffffff; /* Branco para o que o usuário digita */
+}
+
+.error {
+    color: #ff5555; /* Vermelho para erros */
+}
+
+.system {
+    color: #00ff00; /* Verde para as respostas normais */
+}
+
+.loading {
+    color: #f1e05a; /* Amarelo para a animação de carregamento */
+}
